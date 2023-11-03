@@ -25,7 +25,7 @@ jobs:
           7.0.x
     - name: Restore dependencies
       run: |
-        dotnet tool install --global gotnet-ef
+        dotnet tool install --global dotnet-ef
         dotnet restore IWA.NET.sln
         dotnet tool restore
       
